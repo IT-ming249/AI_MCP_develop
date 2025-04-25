@@ -16,6 +16,28 @@ async def file_resourse_to_model():
         content = await fp.read()
     return content
 
+#动态资源，不是文本图片这类不变化的资源 使用Resource Template实现
+@app.resource(
+    uri="user://{user_id}",
+    name="user_resourse",
+    description="根据参数user_id，返回用户的详细信息。\n :param user_id: 用户的id",
+    mime_type="application/json",
+)
+async def user_detail(user_id: str):
+    #下面模拟一个从数据库内根据用户id查找用户数据的过程
+    return {
+        "user_id": user_id,
+        "usernam": "明敏",
+        "gender": "male",
+        "university": "STU"
+    }
+
+
+
+
+
+
+
 
 
 if __name__ == "__main__":
