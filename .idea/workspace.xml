@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b24e0b40-2e6d-4dc2-b57f-357fce81f3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/context_mcp/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/context_mcp/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AI_MCP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI_MCP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/cc_mcp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/model_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General_mcp_client/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +44,8 @@
     "Python.client.executor": "Run",
     "Python.client_resource_template.executor": "Run",
     "Python.client_sse.executor": "Run",
+    "Python.client_stdio.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.server (1).executor": "Run",
     "Python.server (2).executor": "Run",
     "Python.server.executor": "Run",
@@ -55,32 +60,14 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.server">
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AI_MCP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resource_mcp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resource_mcp/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI_MCP" />
       <option name="ENV_FILES" value="" />
@@ -104,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="client_stdio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI_MCP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prompt_mcp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/start_mcp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prompt_mcp/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_mcp/client_stdio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI_MCP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,12 +123,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resource_mcp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/General_mcp_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resource_mcp/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/General_mcp_client/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI_MCP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/General_mcp_client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/General_mcp_client/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.server (2)" />
+        <item itemvalue="Python.client_stdio" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.client (2)" />
-        <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.server (1)" />
-        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +212,11 @@
       <workItem from="1745224903758" duration="69000" />
       <workItem from="1745562866378" duration="12788000" />
       <workItem from="1745840211279" duration="8022000" />
-      <workItem from="1745905941463" duration="8078000" />
+      <workItem from="1745905941463" duration="8613000" />
+      <workItem from="1745993920277" duration="11505000" />
+      <workItem from="1746069965418" duration="17349000" />
+      <workItem from="1746174165740" duration="232000" />
+      <workItem from="1746174413919" duration="7145000" />
     </task>
     <servers />
   </component>
@@ -210,15 +224,18 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AI_MCP$client_sse.coverage" NAME="client_sse Coverage Results" MODIFIED="1745562882643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP_develop$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1745932751981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/context_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP$server.coverage" NAME="server Coverage Results" MODIFIED="1745562871188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP_develop$main.coverage" NAME="main Coverage Results" MODIFIED="1746183842186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/General_mcp_client" />
+    <SUITE FILE_PATH="coverage/AI_MCP_develop$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1746174939659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/General_mcp_client" />
     <SUITE FILE_PATH="coverage/AI_MCP$client.coverage" NAME="client Coverage Results" MODIFIED="1745589682696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prompt_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP_develop$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1745840471302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_mcp" />
-    <SUITE FILE_PATH="coverage/AI_MCP$client_sse.coverage" NAME="client_sse Coverage Results" MODIFIED="1745562882643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1745579076166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1745587375484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prompt_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP$client_resource_template.coverage" NAME="client_resource_template Coverage Results" MODIFIED="1745579676893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_mcp" />
-    <SUITE FILE_PATH="coverage/AI_MCP_develop$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1745932751981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/context_mcp" />
-    <SUITE FILE_PATH="coverage/AI_MCP$server.coverage" NAME="server Coverage Results" MODIFIED="1745562871188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP_develop$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1745840483232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP_develop$server.coverage" NAME="server Coverage Results" MODIFIED="1745933582913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/context_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP_develop$client_stdio.coverage" NAME="client_stdio Coverage Results" MODIFIED="1746016308254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
   </component>
 </project>
