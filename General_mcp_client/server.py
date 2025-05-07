@@ -56,7 +56,8 @@ class MCPServer:
                 ClientSession(read_stream, write_stream))
         else:
             read_stream, write_stream = await self._exit_stack.enter_async_context(
-                sse_client(self.url))
+                # headers 传递请求头信息
+                sse_client(self.url, headers={"Authorization": "Bearer tokenSample"}))
             self.session = await self._exit_stack.enter_async_context(ClientSession(read_stream, write_stream))
         await self.session.initialize()
         # 获取所有的Tool Resource Promote
