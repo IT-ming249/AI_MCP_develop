@@ -1,9 +1,11 @@
+import asyncio
+import json
 from openai import OpenAI
 from mcp.client.sse import sse_client
 from mcp import ClientSession
-import asyncio
-import json
 from contextlib import AsyncExitStack
+
+import const
 
 #stdio: 在客户端中，启应该新的子进程来执行服务端的脚本代码
 
@@ -12,8 +14,8 @@ class MCPClient:
     def __init__(self,server_path):
         self.server_path = server_path
         self.deepseek = OpenAI(
-            api_key="sk-6d067e4813ee48448f1f4770bef1bdb7",
-            base_url="https://api.deepseek.com/"
+            api_key=const.API_KEY,
+            base_url=const.BASE_URL
         )
         self.exit_stack = AsyncExitStack()
 

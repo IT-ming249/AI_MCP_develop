@@ -1,0 +1,11 @@
+[project]
+name = "bilibli-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bilibili-api-python>=17.2.1",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.2",
+]

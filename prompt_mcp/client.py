@@ -5,13 +5,14 @@ import asyncio
 import json
 from contextlib import AsyncExitStack
 
+import const
 
 
 class MCPClient:
     def __init__(self):
         self.deepseek = OpenAI(
-            api_key="sk-6d067e4813ee48448f1f4770bef1bdb7",
-            base_url="https://api.deepseek.com/"
+            api_key=const.API_KEY,
+            base_url=const.BASE_URL
         )
         self.exit_stack = AsyncExitStack()
         self.prompts = {}

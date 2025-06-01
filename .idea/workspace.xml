@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b24e0b40-2e6d-4dc2-b57f-357fce81f3eb" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/General_mcp_client/cc_mcp_sse.py" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/General_mcp_client/cc_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/General_mcp_client/cc_mcp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/General_mcp_client/mcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/General_mcp_client/mcp.json" afterDir="false" />
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+<<<<<<< Updated upstream
     &quot;Python.cc_mcp_sse.executor&quot;: &quot;Run&quot;,
     &quot;Python.client (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.client (2).executor&quot;: &quot;Run&quot;,
@@ -44,18 +48,28 @@
     &quot;Python.client_sse.executor&quot;: &quot;Run&quot;,
     &quot;Python.client_stdio.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+=======
+    &quot;Python.client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.client_resource_template.executor&quot;: &quot;Run&quot;,
+    &quot;Python.client_sse.executor&quot;: &quot;Run&quot;,
+>>>>>>> Stashed changes
     &quot;Python.server (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.server (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.server.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/for_python/Python_project/剑指offer&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;D:/for_py/剑指offer&quot;,
+>>>>>>> Stashed changes
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< Updated upstream
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -67,6 +81,13 @@
 }</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="cc_mcp_sse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.client">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="AI_MCP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745224902702</updated>
       <workItem from="1745224903758" duration="69000" />
+<<<<<<< Updated upstream
       <workItem from="1745562866378" duration="12788000" />
       <workItem from="1745840211279" duration="8022000" />
       <workItem from="1745905941463" duration="8613000" />
@@ -217,6 +239,10 @@
       <workItem from="1746174413919" duration="7973000" />
       <workItem from="1746430871400" duration="5369000" />
       <workItem from="1746600867623" duration="695000" />
+=======
+      <workItem from="1745562866378" duration="15555000" />
+      <workItem from="1747361687708" duration="138000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -224,6 +250,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< Updated upstream
+=======
+    <SUITE FILE_PATH="coverage/AI_MCP$server.coverage" NAME="server Coverage Results" MODIFIED="1745562871188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP$client.coverage" NAME="client Coverage Results" MODIFIED="1745724831078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prompt_mcp" />
+    <SUITE FILE_PATH="coverage/AI_MCP$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1745724828233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prompt_mcp" />
+>>>>>>> Stashed changes
     <SUITE FILE_PATH="coverage/AI_MCP$client_sse.coverage" NAME="client_sse Coverage Results" MODIFIED="1745562882643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP_develop$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1745932751981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/context_mcp" />
     <SUITE FILE_PATH="coverage/AI_MCP$server.coverage" NAME="server Coverage Results" MODIFIED="1745562871188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start_mcp" />
