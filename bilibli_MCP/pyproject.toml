@@ -8,4 +8,5 @@ dependencies = [
     "bilibili-api-python>=17.2.1",
     "httpx>=0.28.1",
     "mcp[cli]>=1.9.2",
+    "playwright>=1.52.0",
 ]

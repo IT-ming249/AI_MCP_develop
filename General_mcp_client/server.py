@@ -205,7 +205,7 @@ async def main():
         name = "filesystem",
         cmd = 'npx',
         args=['-y', "@modelcontextprotocol/server-filesystem",
-              "C:/Users/10451/Desktop"]
+              "C:/Users/admin/Desktop"]
     ) as server:
         print(server.functions)
         # result =await server.call_functions("read_file",{"path":"C:/Users/10451/Desktop/abx.txt"})
